@@ -1,0 +1,93 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabla de contactos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+/* Formularios */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+    border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Centrar formulario de add.php / edit.php y aumentar tamaño */
+.add-container {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    min-height: 80vh;        /* altura mínima de la ventana */
+}
+
+form {
+    width: 500px;            /* más ancho */
+    padding: 30px;           /* más espacio interno */
+    font-size: 18px;         /* texto más grande */
+}
+
+form input[type="text"],
+form input[type="email"] {
+    font-size: 16px;         /* campos más grandes */
+    padding: 12px;
+}
+
+form input[type="submit"] {
+    font-size: 18px;         /* botón más grande */
+    padding: 12px;
+}
